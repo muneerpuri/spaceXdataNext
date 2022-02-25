@@ -33,7 +33,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
+## This application in deployed on vercel, there is no need to set up CI/CD as vercel checks main branch for changes
 ## Pagespeed insights score for desktop 
 ![Screenshot from 2022-02-25 15-36-24](https://user-images.githubusercontent.com/53292780/155696266-e47aa330-30fc-4262-bf05-5974373cdddf.png)
 
