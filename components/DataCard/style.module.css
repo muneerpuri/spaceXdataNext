@@ -27,20 +27,23 @@
     font-size: 18px;
 }
 .missionIDsTitle{
-    font-size: bold;
-    font-size: 18px;
+    font-size: 20px;
+    font-size: bolder;
 }
 .infoBox{
     display: flex;
     padding: 10px 0;
 }
 .infoTitle{
-    font-size: bold;
-    font-size: 17px;
+    font-size: 19px;
+    font-size: bolder;
 }
 .infoData{
     color: rgb(91,101,164);
-    font-size: 17px;
+    font-size: 19px;
     margin: 0 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }

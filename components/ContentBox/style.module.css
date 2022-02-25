@@ -44,7 +44,18 @@
     100% { transform: rotate(360deg); }
   }
 
-
+  @media all and (max-width:1440px){
+    .ContentContainer{
+        width: calc(100% - 10%);
+        margin: 0;
+        padding: 10px 20px;
+        justify-content: center;
+        /* align-content: center; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px 50px;
+        box-sizing: border-box;
+    }
+}
 
   @media all and (max-width:1024px){
     .ContentContainer{
@@ -72,14 +83,14 @@
     }
 }
 
-@media all and (min-width:1440px){
+@media all and (min-width:1441px){
     .ContentContainer{
         width: 1440px;
         margin: 0;
         padding: 10px 20px;
         justify-content: center;
         /* align-content: center; */
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px 50px;
         box-sizing: border-box;
     }
