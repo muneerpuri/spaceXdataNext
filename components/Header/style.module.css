@@ -1,0 +1,17 @@
+.headerbox{
+    background: rgb(242,242,242);
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@media all and (max-width:1024px){
+    .headerbox{
+        text-align: left;
+    }
+}
+@media all and (max-width:700px){
+    .headerbox{
+        text-align: center;
+    }
+}

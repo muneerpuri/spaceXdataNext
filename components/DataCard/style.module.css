@@ -1,0 +1,46 @@
+.container{
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.imgBox{
+    background: rgb(242,242,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+    color: rgb(91,101,164);
+    font-size: 20px;
+
+}
+.listBox{
+    padding: 10px 0;
+}
+.listBox ul li {
+
+    color: rgb(91,101,164);
+    font-size: 18px;
+}
+.missionIDsTitle{
+    font-size: bold;
+    font-size: 18px;
+}
+.infoBox{
+    display: flex;
+    padding: 10px 0;
+}
+.infoTitle{
+    font-size: bold;
+    font-size: 17px;
+}
+.infoData{
+    color: rgb(91,101,164);
+    font-size: 17px;
+    margin: 0 5px;
+
+}

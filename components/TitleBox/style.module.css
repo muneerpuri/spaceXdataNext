@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.borderBox{
+    border-bottom: 2px solid rgb(242,242,242);
+    margin: 5px auto;
+    width: calc(100% - 40%);
+}

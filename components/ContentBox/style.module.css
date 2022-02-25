@@ -1,0 +1,86 @@
+.ContentContainer{
+    width: 80%;
+    border-radius: 10px;
+    height: 450px;
+    margin: 0px;
+    padding: 10px 20px;
+    background: rgb(242,242,242);
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 50px;
+    box-sizing: border-box;
+}
+.loaderBox{
+    width: 80%;
+    margin: 10px;
+    height: 500px;
+    padding: 0px 20px;
+    background: rgb(242,242,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  @media all and (max-width:1024px){
+    .ContentContainer{
+        width: calc(100% - 10%);
+        margin: 0;
+        padding: 0px 20px;
+        justify-content: center;
+        /* align-content: center; */
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 50px;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width:700px){
+    .ContentContainer{
+        padding: 20px 0;
+        width: calc(100% - 10%);
+        margin: auto;
+        justify-content: center;
+        /* align-content: center; */
+        grid-template-columns: 1fr;
+        gap: 20px 50px;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (min-width:1440px){
+    .ContentContainer{
+        width: 1440px;
+        margin: 0;
+        padding: 10px 20px;
+        justify-content: center;
+        /* align-content: center; */
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 50px;
+        box-sizing: border-box;
+    }
+}

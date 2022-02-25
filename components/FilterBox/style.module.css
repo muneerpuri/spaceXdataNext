@@ -1,0 +1,39 @@
+.filterContainer{
+    background: white;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 20px;
+}
+.header{
+    font-weight: bolder;
+}
+
+.btnBox{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 50px;
+}
+.btnStyle{
+    background: rgb(197,224,157);
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.btnStyleActive{
+    background: rgb(124,186,14);
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+@media all and (max-width:700px){
+    .filterContainer{
+        width: calc(100% - 10%);
+        margin: auto;
+    }
+}
