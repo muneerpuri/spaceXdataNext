@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import FilterBox from '../components/FilterBox/FilterBox';
 import ContentBox from '../components/ContentBox';
-import { Head } from 'next/document';
+import Head from 'next/head'
 export default function Home({dataFetched}) {
   React.useEffect( ()=>{
     setLaunchYear(JSON.parse(window.localStorage.getItem('year'))?JSON.parse(window.localStorage.getItem('year')):"")
