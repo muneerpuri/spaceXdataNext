@@ -21,7 +21,6 @@ export default function Home({dataFetched}) {
   const [landingToggle,setLandingToggle] = React.useState(false)
  
   React.useEffect(()=>{
-    
 let url = 'https://api.spaceXdata.com/v3/launches?limit=100?'
     if((launchYear || launch || landing) || (launchYearToggle ||launchToggle ||landingToggle)){
       if(launchYear){
